@@ -1,0 +1,14 @@
+{
+  "name": "token-radar",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Pre-token radar: ranks DeFi protocols that record no token by an implied launch value, with a dashboard and farm plans",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "start": "node --experimental-strip-types main.ts"
+  }
+}
